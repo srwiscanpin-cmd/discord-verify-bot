@@ -8,12 +8,12 @@ import threading
 import asyncio
 
 # ===== CONFIG =====
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-VERIFY_CHANNEL_ID = int(os.environ.get("VERIFY_CHANNEL_ID", "0"))
-LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", "0"))
-MAP_LINK = os.environ.get("MAP_LINK", "https://www.roblox.com")
+BOT_TOKEN = os.environ.get("MTUwMzY3MDQzNjk3Njc4NzU2Nw.GHhP6e.YSYGY-QB3pxs05387B2XbLVSYLB8e57loq9Hjc")
+VERIFY_CHANNEL_ID = int(os.environ.get("VERIFY_CHANNEL_ID", "1512850528080494894"))
+LOG_CHANNEL_ID = int(os.environ.get("LOG_CHANNEL_ID", "1512853167036170435"))
+MAP_LINK = os.environ.get("MAP_LINK", "https://www.roblox.com/games/82655739311380/unnamed")
 API_PORT = int(os.environ.get("PORT", "5000"))
-API_SECRET = os.environ.get("API_SECRET", "secret")
+API_SECRET = os.environ.get("API_SECRET", "kimminja")
 
 # ===== RANK CONFIG =====
 # format: "ยศในกลุ่ม Roblox" : ("OR Code", "ชื่อยศ Discord")
