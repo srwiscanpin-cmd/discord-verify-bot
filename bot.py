@@ -8,12 +8,14 @@ import threading
 import asyncio
 
 # ===== CONFIG =====
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-VERIFY_CHANNEL_ID = 123456789  # ใส่ ID ห้อง verify
-LOG_CHANNEL_ID = 123456789     # ใส่ ID ห้อง log
-MAP_LINK = "https://www.roblox.com/games/YOUR_GAME_ID"  # ลิ้งแมพ Roblox
-API_PORT = 5000
-API_SECRET = "YOUR_SECRET_KEY"  # key ลับสำหรับ Roblox ส่งมา
+import os
+
+BOT_TOKEN = os.environ.get("MTUwMzY3MDQzNjk3Njc4NzU2Nw.GHhP6e.YSYGY-QB3pxs05387B2XbLVSYLB8e57loq9Hjc")
+VERIFY_CHANNEL_ID = int(os.environ.get("1512850528080494894"))
+LOG_CHANNEL_ID = int(os.environ.get("1512853167036170435"))
+MAP_LINK = os.environ.get("https://www.roblox.com/games/82655739311380/unnamed")
+API_SECRET = os.environ.get("API_SECRET")
+API_PORT = int(os.environ.get("PORT", 5000))  # Railway ใช้ PORT อัตโนมัติ
 
 # ===== RANK CONFIG =====
 # format: "ยศในกลุ่ม Roblox" : ("OR Code", "ชื่อยศ Discord")
