@@ -14,8 +14,8 @@ BOT_TOKEN = os.environ.get("MTUwMzY3MDQzNjk3Njc4NzU2Nw.GHhP6e.YSYGY-QB3pxs05387B
 VERIFY_CHANNEL_ID = int(os.environ.get("1512850528080494894"))
 LOG_CHANNEL_ID = int(os.environ.get("1512853167036170435"))
 MAP_LINK = os.environ.get("https://www.roblox.com/games/82655739311380/unnamed")
-API_SECRET = os.environ.get("mySecret123")
-API_PORT = int(os.environ.get("PORT", 5000))  # Railway ใช้ PORT อัตโนมัติ
+API_SECRET = os.environ.get("kimminja11")
+API_PORT = int(os.environ.get("PORT", 5000))
 
 # ===== RANK CONFIG =====
 # format: "ยศในกลุ่ม Roblox" : ("OR Code", "ชื่อยศ Discord")
